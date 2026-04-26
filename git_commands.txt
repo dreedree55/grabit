@@ -1,0 +1,23 @@
+Get latest Pull info (git log -n 5 --oneline)
+Got to the main folder, Pull everything from the main branch (git pull origin main)
+Create and go to branch (git checkout -b [branch name])
+git push -u origin [branch]
+git branch --delete <branchname>
+git reset HEAD~ (undo last commit)
+ 
+PULL REMOTE BRANCH INTO LOCAL BRANCH
+
+IF YOU FUCK UP AND 50 DIFFERENT FILES APPEAR ON GIT CHANGES DO THIS:
+go to main (git checkout main)
+pull main (git pull)
+go back into branch (git checkout -)
+merge main into branch (git merge main)
+ 
+# create a local branch
+git checkout -b (+ nome da branch)
+ 
+# make sure you are on the newly created branch
+git branch
+ 
+# finally pull the remote branch to your local branch
+git pull origin (+ nome da branch)
